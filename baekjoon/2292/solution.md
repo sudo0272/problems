@@ -1,7 +1,7 @@
 # 2292. Beehive
 
 ## Problem
-![./problem.png](beehive)
+![beehive](./problem.png)
   There's a beehive formed with hexagons as seen above. As seen in the picture, the rooms are addressed from the center room 1, to nearby rooms increasing room number. There's a beehive formed with hexagons as seen above. As seen in the picture, the addressment of rooms starts from the room 1 in the center, each nearby rooms are addressed with increased room number. Write a program that calculates the minimum number of rooms passed through to go to Nth room. For example, 3 rooms are passed through to go to 13th room and 5 rooms are passed through to go to 58th room.
 
 ### Input
