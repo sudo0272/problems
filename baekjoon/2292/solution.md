@@ -17,3 +17,6 @@
   Say x is the given number and m is the minimum number of rooms passed through. Then, m satisfies following: Σ(1~(m-1)) < x ≤ Σ(1~m), 6m(m-1)/2 < x ≤ 6m(m+1)/2, 3m(m-1) < x ≤ 3m(m+1), m-1 < x/3m ≤ m+1. `findNthShell()` calls `findClosestNthSum()` internally and returns m using binary search.
   In addition, 44721 is 44722-1 and 44722 is the maximum value of m since N is less than or equal to 1000000000.
 
+### Solution 2
+  The greatest number of the room of each shell G are following: 7, 19, 37, 61, .... And the differences between them are 6, 12, 18, ... which can be generalized to 6G. Thus the number m, the minimum number of rooms passed through, satisfies following: 6Σ(1~m) < N.
+
