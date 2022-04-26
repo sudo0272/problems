@@ -13,6 +13,7 @@
 ## Solution
 
 ### Solution 1
-  The greatest number of the room of each shell N are following: 7, 19, 37, 61, .... And N - 1 are following: 6, 18, 36, 60, .... (N - 1) / 6 are following: 1, 3, 6, 10, .... And they are equal to Σ(1), Σ(1~2), Σ(1~3), Σ(1~4), ....
+  The greatest number of the room of each shell G are following: 7, 19, 37, 61, .... And G - 1 are following: 6, 18, 36, 60, .... (G - 1) / 6 are following: 1, 3, 6, 10, .... And they are equal to Σ(1), Σ(1~2), Σ(1~3), Σ(1~4), ....
   Say x is the given number and m is the minimum number of rooms passed through. Then, m satisfies following: Σ(1~(m-1)) < x ≤ Σ(1~m), 6m(m-1)/2 < x ≤ 6m(m+1)/2, 3m(m-1) < x ≤ 3m(m+1), m-1 < x/3m ≤ m+1. `findNthShell()` calls `findClosestNthSum()` internally and returns m using binary search.
+  In addition, 44721 is 44722-1 and 44722 is the maximum value of m since N is less than or equal to 1000000000.
 
