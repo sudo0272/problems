@@ -1,5 +1,5 @@
 # 1065. Hansu
-[https://www.acmicpc.net/problem/1065][https://www.acmicpc.net/problem/1065]
+[https://www.acmicpc.net/problem/1065](https://www.acmicpc.net/problem/1065)
 
 ## Problem
 When each digit of X makes an arithmetic sequence, the number is called Hansu. An arithmetic sequence is a sequence that the difference between two consecutive numbers are identical. Given N, write a program that counts the number of Hansu in range from 1 to N.
